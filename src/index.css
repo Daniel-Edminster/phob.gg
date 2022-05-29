@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #292727; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+  
+    background: #202225; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #141518fe; 
+  }
