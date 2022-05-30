@@ -48,6 +48,10 @@
             </div>
         </div>
 
+        <!-- <div v-if="mdText" class="content-block mt-4">
+            <div v-html="mdText" />
+        </div> -->
+
    
     </div>
 
@@ -78,18 +82,21 @@
         },
         methods: {
             getMarkdownFile: async function() {
-                let baseURL = 'https://phob.gg/README.md';
+                // let baseURL = 'https://phob.gg/README.md';
+                // let baseURL = 'https://raw.githubusercontent.com/nodejs/node/master/README.md';
              
-                try {
-                    let response = await axios.get(baseURL);
-                    let text = response.data;
-                    console.log(response);
-                    this.mdText = text;
-                }
-                catch(error) {
-                    console.log(error);
+                // try {
+                //     let response = await axios.get(baseURL);
+                //     let text = response.data;
+                //     console.log(response);
+                //     this.mdText = this.marked(text);
+                // }
+                // catch(error) {
+                //     console.log(error);
 
-                }
+                // }
+
+                
             },
             getSoftwareReleases: async function() {
                 try {

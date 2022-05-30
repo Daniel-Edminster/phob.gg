@@ -7,6 +7,9 @@ import Home from './views/Home.vue';
 import Resources from './views/Resources.vue';
 
 import Releases from './views/Releases.vue';
+
+
+
 </script>
 
 <template>
